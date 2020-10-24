@@ -269,7 +269,7 @@
   .ft { grid-area: ft; }
   
 
-  .grid-container2 {
+  /* .grid-container2 {
       border-bottom: black solid 1px;
       padding-top: 3%;
     display: grid;
@@ -305,8 +305,29 @@
   .f11 { grid-area: f11; }
   
   .f12 { grid-area: f12; }
+   */
+   .grid-container2 {
+     padding-top: 2%;
+     border-bottom: #000 solid 1px;
+     
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 5px;
+    grid-template-areas:
+      "messi messi ronaldo ronaldo"
+      "messi messi ronaldo ronaldo"
+      "text text textr textr";
+  }
   
-
+  .messi { grid-area: messi; }
+  
+  .text { grid-area: text; }
+  
+  .ronaldo { grid-area: ronaldo; }
+  
+  .textr { grid-area: textr; }
+  
 .footer{
   background: #000;
   color: #fff;
