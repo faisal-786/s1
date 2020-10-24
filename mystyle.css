@@ -308,7 +308,7 @@
    */
    .grid-container2 {
      padding-top: 2%;
-     border-bottom: #000 solid 1px;
+     border-bottom: black solid 1px;
      
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
